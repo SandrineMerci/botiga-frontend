@@ -1,0 +1,153 @@
+.card-container{
+    display: flex;
+    flex-direction: column; /* Ensures elements are stacked */
+    align-items: center; /* Centers content */
+    width: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 20px;
+    margin-top: -50px;
+    transition: transform 0.3s ease-in-out;
+    
+    }
+    .profileimage{
+      margin: 0px;
+      height: auto;
+    }
+  
+    .profile-image-container {
+      margin-top: 0px; 
+      padding: 0px; 
+  }
+  
+    .rowcontent {
+      display: flex;
+      flex-direction: column; /* Aligns items vertically */
+      gap: 1px; /* Adds spacing between spans */
+      font-size: 16px;
+      margin-left: 100px;
+    }
+    
+    .rowcontent span {
+      display: block; /* Ensures each span takes full width */
+      padding: 1px 0; /* Adds vertical padding */
+    }
+  
+    .rowcontent span:hover{
+      color: gray;
+    }
+  
+  
+  
+    .card-container:hover{
+           transform: scale(1.05);
+    }
+    .image
+    {
+        width: 15rem;
+        height: 15rem;
+    }
+    
+    
+    
+    .Holder{
+      /* padding-top: 4rem;
+      padding-bottom: 4rem;
+      padding-left: 4rem; */
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+       margin-top: 10px;
+      /* display: flex; */
+      flex-wrap: wrap;
+    }
+    
+    .Holder .profile-container .profileimage{
+        margin-left: 0;
+        width: 100%;
+        margin-top: 0;
+    
+    }
+    
+    .star{
+        color: orange ;
+        margin-bottom: 10px;
+    }
+  
+    .starwhite{
+      color: aliceblue;
+      border: 2px black;
+    }
+    
+    .circleicons{
+      display: flex;
+      gap: 5px;
+    }
+  
+    .text-1{
+        font-size: 1.2rem;
+        padding-top: 0.7rem;
+        font-weight: bold;
+    
+    
+    }
+    .text-2{
+        font-size: 0.9rem;
+        padding-top: 0.7rem;
+    }
+    .icon{
+        font-size: 1.5 rem;
+        color: red;
+    }
+    .iconcontainer{
+        padding-top: 0.7rem;
+      
+    }
+    
+    .container2{
+        flex-direction: row;
+        display: flex;
+    }
+    
+    .redcircle{
+        color: gray;
+    }
+    
+    .purplecirle{
+        color: black;
+    }
+    
+    /* Button styles */
+    .rounded-btn {
+        background-color: grey;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 35rem;
+        margin-top: -50px;
+    }
+    
+    .shopbtn{
+        background-color: grey;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+  
+    .shopheader{
+      position: absolute;
+    top: 60%;   /* Adjust to center */
+    left: 10%;  /* Adjust to center */
+    transform: translate(-50%, -50%);
+    color: black; /* Text color */
+    font-size: 2rem;
+     /* Adds a slight dark background */
+    /* background: rgba(0, 0, 0, 0.5); */
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 50px;
+    }
